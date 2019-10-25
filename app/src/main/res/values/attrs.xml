@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="HealthStatusView">
+
+    <!--刻度的长度-->
+    <attr name="pointer_length" format="dimension"></attr>
+    <!--刻度的宽度-->
+    <attr name="pointer_width" format="dimension"></attr>
+
+
+    <!--"优秀"字体大小-->
+    <attr name="evaluate_size" format="dimension"></attr>
+    <!--分值的字体大小-->
+    <attr name="score_size" format="dimension"></attr>
+    <!--"分"字体大小-->
+    <attr name="score_unit_size" format="dimension"></attr>
+    <!--健康指数字体大小-->
+    <attr name="health_index_size" format="dimension"></attr>
+
+    <!--评价的背景色，如优秀的背景色-->
+    <attr name="evaluate_background_color" format="color"></attr>
+    <!--优秀，100分颜色值-->
+    <attr name="title_colr" format="color"></attr>
+    <!--健康指数颜色-->
+    <attr name="health_index_color" format="color"></attr>
+</declare-styleable>
+
+
+</resources>
